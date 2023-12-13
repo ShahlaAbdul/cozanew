@@ -1,0 +1,43 @@
+.basketcontainer{
+    border: 1px solid gray;
+    max-width: 75%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.basketCard{
+    border: 2px solid #b0b9d0;
+    max-width: 700px;
+    height: auto ;
+    margin-top: 100px;
+   
+    .baskethead{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+        border-bottom: 1px solid #b0b9d0;
+        .baskettitle{
+            display: flex;
+            width: 50%;
+            background-color: red;
+            justify-content: space-around;
+        }
+    }
+    .basketelement{
+        border: 1px solid red;
+        width: 90%;
+        margin: 0 auto;
+        height: 300px;
+        margin-top: 20px;
+      
+        .basketproduct{
+            display: flex;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            button{
+                width: 200px;
+            }
+        }
+    }
+}

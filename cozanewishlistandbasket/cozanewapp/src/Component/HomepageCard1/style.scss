@@ -1,0 +1,26 @@
+.cardcontainer{
+   width: 400px;
+    height: 300px;
+    .homeCard1Container{
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        
+        .Card1Content{
+            width: 100%;
+            height: 100%;
+            padding: 80px;
+            .card1Text{
+    
+                width: 50%;
+    
+            }
+    
+        }
+        img{
+            width: 100%;
+            height: 100%;
+          
+        }
+    }
+}

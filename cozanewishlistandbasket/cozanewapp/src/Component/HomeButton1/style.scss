@@ -1,0 +1,14 @@
+.quickStart{
+    width: 160px;
+    padding: 18px;
+    border-radius: 50px;
+    
+    color: white;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    &:hover{
+    background-color: black;
+    transition: all 400ms;
+   }
+}
