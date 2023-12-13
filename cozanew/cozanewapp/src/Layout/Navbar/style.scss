@@ -1,0 +1,91 @@
+.headContainer{
+    max-width: 100%;
+    background-color: #252424;
+.head{
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    .headleft{
+        max-width: 30%;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        
+        p{
+            width: 100%;
+        }
+    }
+    .headRightContainer{
+        max-width: 40%;
+        .headRight{
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            font-size: 14px;
+            .headLink1{
+                color:#c3b4b4;
+                border-left: 1px solid gray;
+                border-right: 1px solid gray;
+                padding: 8px;
+                
+            }
+            .headLink{
+                color:#c3b4b4 ;
+                border-right: 1px solid gray;
+                padding: 8px;
+              
+            }
+        }
+    }
+}
+}
+
+
+.navbarContainer{
+    background-color: transparent;
+    width: 100%;
+    
+   
+    .navbar{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-top: 40px;
+     
+        .navbarLeftContainer{
+           
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            .navbarleftimg{
+
+                width: 160px;
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+        .navbarLeftAllPages{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            .page{
+                background-color: transparent;
+            }
+
+        }
+        .navbarRight{
+            display: flex;
+            justify-content: space-between;
+            width: 13%;
+            font-size: 20px;
+           
+        }
+    }
+}

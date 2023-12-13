@@ -1,0 +1,48 @@
+.homecardcontainer{
+   width: 400px;
+    height: 300px;
+ 
+    :hover .homecardcontent{
+        background-color: #6968c281;
+        transition: all 400ms ;
+        color: #fff;
+        
+        
+    }
+    
+    .homecard{
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        
+        .homecardcontent{
+            width: 100%;
+            height: 100%;
+            padding: 80px;
+           
+            .card1Text{
+    
+                width: 50%;
+                
+    
+            }
+            .shopnow  {
+                transition: transform(300ms) padding 600ms;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border-bottom: 1px solid gray;
+                transform: translateY(50%) padding 600ms;
+                opacity: 0;
+                transition: 300ms;
+              
+                
+            }
+          
+    
+        }
+        img{
+            width: 100%;
+            height: 100%;
+          
+        }
+    }
+}

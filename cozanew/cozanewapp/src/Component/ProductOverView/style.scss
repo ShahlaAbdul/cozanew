@@ -1,0 +1,44 @@
+.ProductOverView{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: aqua;
+    .productOverViewNav{
+        width: 100%;
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        .overWievNav{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            .productOverViewLeft{
+                width: 40%;
+                padding: 10px;
+                .allCategory{
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+    
+                }
+            }
+            .productOverViewRight{
+                display: flex;
+                width: 14%;
+                
+                .button{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    button{
+                        width: 90px;
+                        padding: 10px;
+                        background-color: transparent;
+                        border: 1px solid rgb(167, 189, 197);
+                    }
+                }
+            }
+        }
+
+    }
+}
